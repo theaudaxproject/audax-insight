@@ -1,12 +1,12 @@
 {
-  "name": "reddsight",
-  "description": "An open-source frontend for the Reddsight API. The Reddsight API provides you with a convenient, powerful and simple way to query and broadcast data on the Reddcoin network and build your own services with it.",
+  "name": "audax-insight",
+  "description": "An open-source frontend for the Audax-Insight API. The Audax-Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Audax network and build your own services with it.",
   "version": "0.2.6",
   "author": {
     "name": "Larry Ren",
     "email": "ren@reddcoin.com"
   },
-  "repository": "git://github.com/reddcoin-project/reddsight.git",
+  "repository": "git://github.com/theaudaxproject/audax-insight.git",
   "contributors": [
     {
       "name": "Mike Croteau",
@@ -39,12 +39,16 @@
     {
       "name": "Juan Ignacio Sosa Lopez",
       "email": "bechilandia@gmail.com"
+    },
+	{
+      "name": "Cryptotron",
+      "email": "dev1@audaxproject.io"
     }
   ],
   "bugs": {
-    "url": "https://github.com/reddcoin-project/reddsight/issues"
+    "url": "https://github.com/theaudaxproject/audax-insight/issues"
   },
-  "homepage": "https://github.com/reddcoin-project/reddsight",
+  "homepage": "https://github.com/theaudaxproject/audax-insight",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -52,13 +56,14 @@
     "blockexplorer",
     "reddcoin",
     "bitcore",
-    "front-end"
+    "front-end",
+	"audax"
   ],
   "scripts": {
-    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/reddsight-api"
+    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/audax-insight-api"
   },
   "dependencies": {
-    "reddsight-api": "git://github.com/reddcoin-project/reddsight-api.git"
+    "audax-insight-api": "git://github.com/theaudaxproject/audax-insight-api.git"
   },
   "devDependencies": {
     "bower": "~1.2.8",

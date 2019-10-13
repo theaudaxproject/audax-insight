@@ -1,5 +1,5 @@
 {
-  "name": "reddsight",
+  "name": "audax-insight",
   "version": "0.2.5",
   "dependencies": {
     "angular": "~1.2.13",
